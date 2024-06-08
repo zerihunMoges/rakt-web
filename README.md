@@ -18,8 +18,8 @@ First, install dependencies and  run the development server:
 then
 ```npm run dev```
 
-# Environment Variables
-Create a .env file in the root directory and add the following:
+## Environment Variables
+Create a .env.local file in the root directory and add the following:
 ```env
 NEXT_PUBLIC_GOOGLE_MAP_API_KEY=your-api-key
 NEXT_PUBLIC_BACKEND=https://rakt-food-trucks-production-7cb4.up.railway.app/api
