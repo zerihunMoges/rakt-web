@@ -145,7 +145,9 @@ export default function Home() {
                   onChange={(e) => setSelectedStatus(e.target.value)}
                   className="text-base text-gray-800 outline-none border-2 px-2 py-2 rounded-lg"
                 >
-                  <option selected>All</option>
+                  <option selected value="">
+                    All
+                  </option>
 
                   {statuses.map((status) => (
                     <option key={status} value={status}>
@@ -165,7 +167,9 @@ export default function Home() {
                   onChange={(e) => setSelectedFacility(e.target.value)}
                   className="text-base text-gray-800 outline-none border-2 px-2 py-2 rounded-lg"
                 >
-                  <option selected>All</option>
+                  <option selected value="">
+                    All
+                  </option>
 
                   {facility_type.map((status) => (
                     <option key={status} value={status}>
