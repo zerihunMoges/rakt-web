@@ -1,6 +1,6 @@
 # RAKT Food Trucks Web
 
-This is a next.js project that allows you to easily find nearby food trucks around San Francisco. 🚚🍔🌮
+This is a next.js project that allows you to easily see nearby food trucks around San Francisco. 🚚🍔🌮
 
 # 🌐 Live Demo
 
