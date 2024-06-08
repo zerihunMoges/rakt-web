@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RAKT Food Trucks Web
+
+This is a next.js project that allows you to easily find nearby food trucks around San Francisco. 🚚🍔🌮
+
+# 🌐 Live Demo
+
+Web App - https://rakt-web.vercel.app/
+
+![image](https://github.com/zerihunMoges/rakt-web/assets/91532718/dc2f6e4a-2674-4d2e-a25f-e0de582fb0e6)
+
 
 ## Getting Started
 
