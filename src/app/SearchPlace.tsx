@@ -19,7 +19,7 @@ const SearchPlace = (props: SearchPlaceProps) => {
     setSearchLngLat,
     setSelectedPlace,
   } = props;
-  const autocompleteRef = React.useRef<null>(null);
+  const autocompleteRef = React.useRef<any>(null);
 
   const handlePlaceChanged = () => {
     const place = autocompleteRef.current?.getPlace();
