@@ -7,15 +7,15 @@ import { useLoadScript } from "@react-google-maps/api";
 import { IoLocation } from "react-icons/io5";
 
 export default function Home() {
-  const [selectedPlace, setSelectedPlace] = useState(null);
+  const [selectedPlace, setSelectedPlace] = useState<any>(null);
   const [searchLngLat, setSearchLngLat] = useState<any>();
-  const [currentLocation, setCurrentLocation] = useState(null);
-  const [selectedStatus, setSelectedStatus] = useState();
-  const [selectedFacility, setSelectedFacility] = useState();
+  const [currentLocation, setCurrentLocation] = useState<any>(null);
+  const [selectedStatus, setSelectedStatus] = useState<any>();
+  const [selectedFacility, setSelectedFacility] = useState<any>();
   const radius = [1000, 2000, 5000, 10000, 20000, 50000, 100000];
-  const [searchRadius, setSearchRadius] = useState(radius[0]);
+  const [searchRadius, setSearchRadius] = useState<any>(radius[0]);
   const [getFoodTrucksPending, startGetFoodTrucks] = useTransition();
-  const [foodTrucks, setFoodTrucks] = useState([]);
+  const [foodTrucks, setFoodTrucks] = useState<any>([]);
   // laod script for google map
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY || "",
