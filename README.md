@@ -18,6 +18,10 @@ First, install dependencies and  run the development server:
 then
 ```npm run dev```
 
+Then, create .env file in the root directory and add this:
+NEXT_PUBLIC_GOOGLE_MAP_API_KEY=your-api-key
+NEXT_PUBLIC_BACKEND=https://rakt-food-trucks-production-7cb4.up.railway.app/api
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
