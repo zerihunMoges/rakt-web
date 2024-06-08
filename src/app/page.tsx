@@ -8,7 +8,7 @@ import { IoLocation } from "react-icons/io5";
 
 export default function Home() {
   const [selectedPlace, setSelectedPlace] = useState(null);
-  const [searchLngLat, setSearchLngLat] = useState();
+  const [searchLngLat, setSearchLngLat] = useState<any>();
   const [currentLocation, setCurrentLocation] = useState(null);
   const [selectedStatus, setSelectedStatus] = useState();
   const [selectedFacility, setSelectedFacility] = useState();
