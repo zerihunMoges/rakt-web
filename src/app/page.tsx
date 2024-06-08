@@ -9,7 +9,7 @@ import { IoLocation } from "react-icons/io5";
 export default function Home() {
   const [selectedPlace, setSelectedPlace] = useState<any>(null);
   const [searchLngLat, setSearchLngLat] = useState<any>({
-    long: -122.4194155,
+    lng: -122.4194155,
     lat: 37.7749295,
     name: "San Francisco, CA, USA",
   });
