@@ -69,7 +69,7 @@ export default function Home() {
     };
 
     fetchData();
-  }, [searchLngLat, selectedStatus, selectedFacility]);
+  }, [searchLngLat, selectedStatus, selectedFacility, searchRadius]);
   if (!isLoaded)
     return (
       <div className="h-screen w-screen flex items-center justify-center">
