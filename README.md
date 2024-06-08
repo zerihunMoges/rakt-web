@@ -6,6 +6,9 @@ This is a next.js project that allows you to easily find nearby food trucks arou
 
 Web App - https://rakt-web.vercel.app/
 
+![image](https://github.com/zerihunMoges/rakt-web/assets/91532718/dc2f6e4a-2674-4d2e-a25f-e0de582fb0e6)
+
+
 ## Getting Started
 
 First, run the development server:
