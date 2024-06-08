@@ -38,7 +38,7 @@ export default function Home() {
           const params = new URLSearchParams();
 
           // Add location parameters if available
-          if (selectedPlace) {
+          if (searchLngLat) {
             params.append("long", searchLngLat?.lng);
             params.append("lat", searchLngLat?.lat);
           }
@@ -69,7 +69,7 @@ export default function Home() {
     };
 
     fetchData();
-  }, [selectedPlace, selectedStatus, selectedFacility]);
+  }, [searchLngLat, selectedStatus, selectedFacility]);
   if (!isLoaded)
     return (
       <div className="h-screen w-screen flex items-center justify-center">
